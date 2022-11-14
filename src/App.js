@@ -26,8 +26,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <textarea rows="4" cols="50" onChange={onTextChange}></textarea>
-        <input type="button" value="enviar" onClick={enviarMensaje}>
-        </input>
+        <br/>
+        <input type="button" value="enviar" onClick={enviarMensaje}></input>
       </header>
     </div>
   );
